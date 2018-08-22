@@ -1,5 +1,10 @@
 function produceDrivingRange(range) {
-  return function
+  return function(beginningLocation, endingLocation) {
+    let distance = Math.abs(beginningLocation - endingLocation)
+    if(distance <= range) {
+      return ""
+    }
+  }
 }
 
 function produceTipCalculator() {
