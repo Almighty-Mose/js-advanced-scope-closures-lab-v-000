@@ -6,7 +6,9 @@ function produceDrivingRange(range) {
     let difference = travelDistance - range;
     
     if(difference > 0){
-      return ""
+      return `within range by ${difference}`;
+    } else {
+      
     }
   }
 }
