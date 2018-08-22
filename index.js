@@ -2,11 +2,9 @@ function produceDrivingRange(range) {
   return function(beginningLocation, endingLocation) {
     let beginning = parseInt(beginningLocation)
     let end = parseInt(endingLocation)
-    let distance = Math.abs(beginning - end)
-    let difference = distance - range;
-    if(distance <= range) {
-      return ""
-    }
+    let travelDistance = Math.abs(beginning - end)
+    let difference = travelDistance - range;
+   
   }
 }
 
