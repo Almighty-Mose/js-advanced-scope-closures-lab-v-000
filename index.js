@@ -1,6 +1,8 @@
 function produceDrivingRange(range) {
   return function(beginningLocation, endingLocation) {
-    let distance = Math.abs(beginningLocation - endingLocation)
+    let beginning = parseInt(beginningLocation)
+    let end = parseInt(endingLocation)
+    let distance = Math.abs(beginning - end)
     if(distance <= range) {
       return ""
     }
