@@ -3,7 +3,7 @@ function produceDrivingRange(range) {
     let beginning = parseInt(beginningLocation);
     let end = parseInt(endingLocation);
     let travelDistance = Math.abs(beginning - end);
-    let difference = travelDistance - range;
+    let difference = range - travelDistance;
     
     if(difference > 0){
       return `within range by ${difference}`;
