@@ -1,5 +1,5 @@
-function produceDrivingRange() {
-  
+function produceDrivingRange(range) {
+  return function
 }
 
 function produceTipCalculator() {
